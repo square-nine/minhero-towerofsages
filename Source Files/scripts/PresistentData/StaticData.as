@@ -2590,10 +2590,10 @@ package PresistentData
       
       public function CalculateDamageOrHealingAmount(param1:Number, param2:Number, param3:Number, param4:Number, param5:Boolean = true) : Number
       {
-         var _loc6_:Number = param4;
-         var _loc7_:Number = param1 + param2 * Math.random();
-         var _loc8_:Number = param3;
-         var _loc10_:Number = (_loc10_ = (_loc10_ = (_loc10_ = (_loc10_ = _loc6_ * 3 / 5 + 2) * _loc7_) * _loc8_) * 1) / 3000;
+         var _loc6_:Number = param4; // level of minion
+         var _loc7_:Number = param1 + param2 * Math.random(); // damage + randomg % of additiona max
+         var _loc8_:Number = param3; //attack stat
+         var _loc10_:Number = (_loc10_ = (_loc10_ = (_loc10_ = (_loc10_ = _loc6_ * 3 / 5 + 2) * _loc7_) * _loc8_) * 1) / 3000; // the final damage
          return Math.ceil(_loc10_);
       }
    }
