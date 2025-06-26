@@ -22,6 +22,7 @@ Follow instructions in the [Releases](https://github.com/square-nine/minhero-tow
 ## Other info:
 The `decrypted_bins` folder contains all of the decrypted `.bin` files from `database/binaryData`
 The `images_sorted` folder contains easier-to-read images than the original names in `images_source`
+The `floor_maps_img` folder contains a full image for every single room in the Tower. Currently they still keep their code name, but it can be fun to put together like a collage!
 
 If you are interested in modding any part of the game, I have started to create a document that compiles everything you will need to know! For now, just reach out to me (square_nine) by checking my contact details on my account page!
 
@@ -31,5 +32,5 @@ There is also a [website](https://min-hero.nekoweb.org/) for Min Hero as well fo
 
 There is some _special_ development being worked on to bring a remaster of Min Hero. So far, it is very new, but you can get updates that from the Discord server linked in the website.
 
-Enjoy using this!
+A multiplayer version of Min Hero is also being developed! Go to [this link](https://github.com/AngelFireLA/MinHeroMods) to follow progress with that!
 
